@@ -5,5 +5,6 @@ $(call libc-add-cpu-variant-src,STRCMP,arch-arm/generic/bionic/strcmp.S)
 $(call libc-add-cpu-variant-src,MEMMOVE,bionic/memmove.c.arm)
 $(call libc-add-cpu-variant-src,BCOPY,string/bcopy.c.arm)
 $(call libc-add-cpu-variant-src,STRCPY,arch-arm/generic/bionic/strcpy.S)
+$(call libc-add-cpu-variant-src,__STRCAT_CHK,bionic/__strcat_chk.cpp)
+$(call libc-add-cpu-variant-src,__STRCPY_CHK,bionic/__strcpy_chk.cpp)
 $(call libc-add-cpu-variant-src,STRLEN,arch-arm/arm11/bionic/strlen.S)
-
